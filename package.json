@@ -1,0 +1,32 @@
+{
+  "name": "postcss-specificity-ratings",
+  "version": "0.0.0",
+  "description": "PostCSS plugin mainly written as my first foray into PostCSS plugin development. It rates each CSS rule according to specificity",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "specificity"
+  ],
+  "author": "Amiel Perez <perezamiel@yahoo.com>",
+  "license": "MIT",
+  "repository": "amielperez/postcss-specificity-ratings",
+  "bugs": {
+    "url": "https://github.com/amielperez/postcss-specificity-ratings/issues"
+  },
+  "homepage": "https://github.com/amielperez/postcss-specificity-ratings",
+  "dependencies": {
+    "postcss": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
