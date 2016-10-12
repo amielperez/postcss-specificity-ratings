@@ -19,7 +19,8 @@
     "postcss": "^5.2.0",
     "gulp": "latest",
     "gulp-postcss": "latest",
-    "specificity": "latest"
+    "specificity": "latest",
+    "underscore": "latest"
   },
   "devDependencies": {
     "ava": "^0.16.0",
