@@ -16,7 +16,10 @@
   },
   "homepage": "https://github.com/amielperez/postcss-specificity-ratings",
   "dependencies": {
-    "postcss": "^5.2.0"
+    "postcss": "^5.2.0",
+    "gulp": "latest",
+    "gulp-postcss": "latest",
+    "specificity": "latest"
   },
   "devDependencies": {
     "ava": "^0.16.0",

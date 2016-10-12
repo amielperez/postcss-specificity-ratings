@@ -1,0 +1,18 @@
+.test {
+  background: white;
+}
+
+div.test > .test-child {
+  background: red;
+  border: 1px solid black;
+}
+
+div[attr='val'] {
+  margin: 15px 10px;
+  padding: 5px;
+}
+
+div.test > .test-child[attr='val'] {
+  background: blue;
+  border: 1px solid white;
+}
